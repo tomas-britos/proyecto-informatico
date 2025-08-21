@@ -1,0 +1,14 @@
+.navGlobal {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-2);
+}
+
+.navGlobal a {
+  transition: all 0.2s ease-in-out;
+}
+
+.navGlobal a:hover {
+  background: var(--color-blue-light);
+  color: #ffffff;
+}
